@@ -28,17 +28,46 @@ https://chrome.google.com/webstore/detail/dom-node-tree-viewer/jbplakkefflidgnjh
 image::https://lh3.googleusercontent.com/wf7zeF8XAmaPwNQv0AZtGUtFruZSTNdNLCPfPwkjXcrPuzzU7vjoO0ka1mQIEl3rfG2YYEjUjH0=w640-h400-e365[]
 https://chrome.google.com/webstore/detail/dom-tree-pretty-view/fbdbnlmganadmogpnpceofkilanfolni
 
+## CSS
+> Cascading Style Sheets -- язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам (например, документам HTML и приложениям XML). 
+-- https://html5book.ru/osnovy-css/
+
+[.stretch]
+image::2019-09-17-17-19-28.png[]
+-- https://emmawedekind.github.io/how-to-become-a-web-developer/
+
+## Front-end developer
+[.stretch]
+image::2019-09-17-17-20-36.png[]
+-- https://emmawedekind.github.io/how-to-become-a-web-developer/
+
+## Selectors
+[.stretch]
+image::https://html5book.ru/wp-content/uploads/2014/12/css_osnovy.png[]
+
+Селектор выбирает элементы из DOM-дерева
+
+.Основные виды селекторов
+. * – любые элементы.
+. div – элементы с таким тегом.
+. #id – элемент с данным id.
+. .class – элементы с таким классом.
+. [name="value"] – селекторы на атрибут
+. :visited – «псевдоклассы»
+
+https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Селекторы
+
 ## Selector Gadget
 
 https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en
 
-## ВКР
-https://www.hse.ru/edu/vkr/
 
 ## Упражнение на CSS
 https://flukeout.github.io
 
 ## Selenium
+> Selenium automates browsers.
+-- https://www.seleniumhq.org
 
-link:chrome://version[]
-https://sites.google.com/a/chromium.org/chromedriver/downloads
+[.stretch]
+image::https://hackr.io/blog/wp-content/uploads/2019/03/Selenium-Image-compressor-1.jpg[]

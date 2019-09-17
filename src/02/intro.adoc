@@ -4,7 +4,7 @@
 [cols={2col}]
 |===
 |
-image:https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Screenplay_example.svg/375px-Screenplay_example.svg.png[]
+image:http://www.regsamarh.ru/external/elar2013/photos/855/8517.jpeg[]
 |
 ____
 - Содержание и подробный план предстоящей деятельности, работ и т.п.
@@ -37,7 +37,7 @@ ____
 [cols={2col}]
 |===
 |
-image:https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Screenplay_example.svg/375px-Screenplay_example.svg.png[]
+image:https://static.auction.ru/offer_images/2016/06/16/05/big/6/67w62H59yE6/apteka_recept_kolomija_1907_god.jpg[]
 |
 ____
 - Письменное предписание врача в аптеку о составе лекарства с указанием способа его применения.
@@ -53,6 +53,20 @@ ____
 - рецепт успеха
 - врачебный рецепт
 
+## Инструкция
+[cols={2col}]
+|===
+|
+image:https://cs.pikabu.ru/post_img/2014/01/08/6/1389168458_1742254669.jpg
+[]
+|
+____
+- Свод правил, устанавливающий порядок и способ осуществления чего-л. 
+- Руководящие указания, наставления. 
+____
+-- http://gramota.ru/slovari/dic/?word=инструкция&all=x
+
+|===
 
 ## Алгоритм
 [cols={2col}]
@@ -76,9 +90,14 @@ http://taketop.ru/articles/obslygivanie/barmen/masterstvo/algoritm-zakaza
 [.stretch]
 image::https://www.music-theory.ru/images/sh_repriza_volta.png[]
 
+## Sonic Pi
+video::G1m0aX9Lpts[youtube, width=1000]
+
 ## Танцы!
 
 video::a0vpWR33UMw[youtube, width=1000]
+
+## Давай напишем алгоритм
 
 ## Контрдансы
 [cols={2col}]
@@ -114,4 +133,13 @@ https://ru.wikipedia.org/wiki/Лабан,_Рудольф_фон
 [.stretch]
 image::https://www.researchgate.net/profile/Minako_Nakamura/publication/242368833/figure/fig1/AS:298476031234049@1448173639249/Staff-notation-and-Labanotation.png[]
 
-## 
+## Программируем танец
+
+.движения
+- хлопок
+- левая рука вверх
+- правая рука вверх
+- руки на поясе
+
+## Программируем на бумажке
+image::https://code.org/curriculum/docs/csf/c2_GraphPaper7.png[]

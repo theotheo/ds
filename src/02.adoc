@@ -44,11 +44,18 @@ ifndef::imagesdir[:imagesdir: images]
 - примеры сыроваты
 - смело предлагайте свои!
 
+## При изучении
+- Сохранять интерес
+- Не сдаваться в плен фрустрации
+- Максимально конкретные примеры
+- Желательно близкие
 
 :leveloffset: +1
 
 include::{src}/intro.adoc[]
+
 include::{src}/programming.adoc[]
+
 include::{src}/html.adoc[]
 
 :leveloffset: -1
