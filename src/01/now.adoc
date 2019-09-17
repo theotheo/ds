@@ -1,0 +1,207 @@
+# Текущая ситуация
+// TODO: вынести отдельно?
+
+## Спрос
+image::2019-09-09-23-44-53.png[]
+https://yandex.ru/company/researches/2019/it-jobs
+
+## Опыт
+
+image::2019-09-10-14-10-07.png[]
+
+
+## Top-1 Glassdoor 2018
+// TODO: proof
+image::2019-09-10-14-38-25.png[]
+https://www.techrepublic.com/article/the-10-best-tech-jobs-in-america-for-2018/
+
+## Top-1 LinkedIn 2019
+// TODO: proof
+
+image::2019-09-10-14-39-02.png[]
+https://www.techrepublic.com/article/why-data-scientist-is-the-most-promising-job-of-2019/
+
+
+## Образование
+
+## Учебники
+
+
+## Bishop
+image::https://images-na.ssl-images-amazon.com/images/I/61FKyOeM7KL._SX368_BO1,204,203,200_.jpg[]
+http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf
+
+## Murphy
+image::https://images-na.ssl-images-amazon.com/images/I/41SbWSolCgL._SX423_BO1,204,203,200_.jpg[]
+https://www.cs.ubc.ca/~murphyk/MLbook/
+
+## ESL 
+image::https://web.stanford.edu/~hastie/ElemStatLearn/CoverII_small.jpg[]
+https://web.stanford.edu/~hastie/Papers/ESLII.pdf
+
+## CIML
+image::http://ciml.info/cover-forweb.png[]
+http://ciml.info
+
+## Python Data Science Handbook
+
+image::https://jakevdp.github.io/PythonDataScienceHandbook/figures/PDSH-cover.png[]
+
+https://jakevdp.github.io/PythonDataScienceHandbook/
+
+## Магистратуры
+- ФКН ВШЭ
+- ВШЭ Питер
+- ИТМО
+- МГУ
+- Сколтех
+- Иннополис
+
+## ШАД
+image::2019-09-10-14-34-55.png[]
+https://yandexdataschool.ru
+
+## CSCenter
+image::2019-09-10-14-35-26.png[]
+https://compscicenter.ru/syllabus/on-campus/ds/
+
+## MADE
+image::2019-09-09-23-40-40.png[]
+
+## DMIA
+image::2019-09-10-00-31-51.png[]
+image::2019-09-10-00-32-01.png[]
+http://dmia.space
+
+## EPAM
+image::2019-09-09-23-42-02.png[]
+https://www.epam-group.ru/careers/education
+
+## Яндекс-Практикум
+image::2019-09-09-23-43-46.png[]
+https://praktikum.yandex.ru/data-scientist
+
+## Специализация МФТИ и Яндекса «Машинное обучение и анализ данных»
+image::2019-09-10-13-46-44.png[]
+https://datasciencecourse.ru
+
+## mlcourse.ai
+image::2019-09-10-13-52-06.png[]
+https://mlcourse.ai
+Недавно начался
+
+## Коммерческие 
+
+## Например, SkillFactory
+image::2019-09-10-13-09-23.png[]
+- https://skillfactory.ru/data-scientist[SkillFactory]
+
+## Еще
+- DataGym
+- NewProLab
+- Netology
+
+
+## Data Culture 
+
+"Концепция проекта Data Culture направлена на то, чтобы у студентов всех программ бакалавриата Высшей школы экономики появилось понимание возможностей современных технологий в области Data Science. Таким образом студенты программ по направлению «Менеджмент» смогут давать точные задачи аналитикам, аналитики — оперативно строить модели, прикладные специалисты — использовать самые современные инструменты в этой сфере.
+"
+-- https://www.hse.ru/dataculture/[]
+
+"
+В 2017 году концепция уже охватила большую часть программ бакалавриата университета, а в 2018 году она будет применяться на всех без исключения образовательных программах первого уровня высшего профессионального образования
+"
+-- https://www.hse.ru/dataculture/[]
+
+## Вызовы эпохи больших данных: диалог университета и бизнеса
+image::2019-09-10-13-12-11.png[]
+https://academics.hse.ru/news/227736109.html
+
+## Академия искусственного интеллекта для школьников
+
+image::2019-09-09-23-19-37.png[]
+
+https://ai-academy.ru
+
+
+## Lifelong-образование
+
+## Мероприятия
+
+## датафесты (одс индустриальные конференции)
+
+image::2019-09-10-14-23-01.png[]
+
+## !
+- датасаенс-завтраки
+- ИТМО
+- JetBrains
+- EPAM
+- Яндекс
+- ВК
+- PyData
+- R-Meetup
+
+## Гендерно-ориентированные
+
+## Women Data Leaders
+image::2019-09-09-23-22-37.png[]
+
+http://wdl-hse.org
+
+## Django Girls
+image::2019-09-10-13-33-36.png[]
+https://djangogirls.org/stpetersburg/
+
+## Women in Big Data (WIBD)
+image::2019-09-10-14-07-04.png[]
+https://vk.com/womeninbigdata
+- Нижний Новгород
+- Москва
+
+## WiML/WiDS
+image::2019-09-10-14-19-49.png[]
+https://datafest.ru/6/schedule/
+
+
+## Соревнования
+## ML Boot Camp
+image::2019-09-09-23-29-41.png[]
+
+## Boosters.pro
+image::2019-09-10-13-33-06.png[]
+https://boosters.pro
+
+## Russian AI Cup
+image::2019-09-09-23-29-54.png[]
+
+## Grand Challenge
+image::2019-09-09-23-30-56.png[]
+
+## Kaggle
+image::2019-09-09-23-32-27.png[]
+
+## ML-тренировки
+image::2019-09-09-23-31-34.png[]
+
+## ODS Pet Projects
+image::2019-09-10-14-37-29.png[]
+Телеграм/ОДС
+
+## Хакатоны
+
+## Actum
+image::2019-09-10-15-02-02.png[]
+https://actum.online/events
+
+## Russian Hackers
+image::2019-09-10-15-02-27.png[]
+https://beta.russianhackers.org
+
+## RusBase
+image::2019-09-10-15-02-55.png[]
+https://rb.ru/tag/hackathon/
+
+## Источники
+- https://yandex.ru/company/researches/2019/it-jobs
+- https://www.jetbrains.com/research/data-science-in-russia/

@@ -1,0 +1,129 @@
+# Data Scientist
+
+## !
+
+"Data Science — это применение научных методов при работе с данными, чтобы найти нужное решение. В широком смысле, естественные науки основаны на Data Science. Например, биолог проводит эксперименты и анализирует результаты для проверки своих гипотез. Он должен уметь обобщать частные наблюдения, исключать случайности и делать верные выводы. 
+"
+-- https://academy.yandex.ru/posts/chem-zanimaetsya-spetsialist-po-data-science-i-kak-nachat-rabotat-v-etoy-oblasti[]
+
+"
+Датасаентист работает с данными так же, как ученый в любой другой сфере. Он использует математическую статистику, логические принципы и современные инструменты визуализации, чтобы получить результат.
+"
+-- https://academy.yandex.ru/posts/chem-zanimaetsya-spetsialist-po-data-science-i-kak-nachat-rabotat-v-etoy-oblasti[]
+
+## Навыки
+
+image::https://avatars.mds.yandex.net/get-media-platform/1851341/file_1567071903937/orig[]
+
+
+## Навыки
+
+image::2019-09-09-23-45-31.png[]
+
+## Python-разработчик
+
+image::2019-09-09-23-46-08.png[]
+Для сравнения
+
+
+## Junior/Middle/Senior
+
+"
+Специалист по Data Science проходит те же карьерные ступени, что и другие профессионалы в IT: джуниор, мидл, тимлид или сеньор. В среднем, каждая ступень занимает от года до двух. Более опытный специалист лучше понимает бизнес-задачи и может предложить лучшее решение для них.
+"
+-- https://academy.yandex.ru/posts/chem-zanimaetsya-spetsialist-po-data-science-i-kak-nachat-rabotat-v-etoy-oblasti[]
+
+// TODO: найти статистику про распределение ролей 
+// TODO: найти информацию о задачах по ролям
+
+## Workflow
+
+image::https://avatars.mds.yandex.net/get-media-platform/1851341/file_1567071972933/orig[]
+
+## Шаги
+
+- выяснение требований заказчика;
+- решение принципиального вопроса «Целесообразно ли решать задачу методами машинного обучения?»;
+- подготовка данных, их разметка;
+- принятие метрик оценки эффективности модели;
+- разработка и тренировка модели машинного обучения;
+- защита экономического эффекта от внедрения модели;
+- внедрение модели в производственные процессы и продукты;
+- сопровождение модели.
+
+## Вариант workflow
+image::https://adriancolyer.files.wordpress.com/2019/07/ms-ml-fig-1.jpeg?w=640[]
+
+## Много челленджей
+image::2019-09-10-14-02-18.png[]
+
+## Варианты workflow
+image::https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/8b7a185629d5480d207b2d3d74790b9b2ab17015/4-Figure1-1.png[]
+
+## CRISP-DM
+"Cross-industry standard process for data mining, known as CRISP-DM,[1] is an open standard process model that describes common approaches used by data mining experts. It is the most widely-used analytics model.[2]
+"
+-- https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining
+
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/CRISP-DM_Process_Diagram.png/897px-CRISP-DM_Process_Diagram.png[]
+
+## Разметка
+image::https://www.topbots.com/wp-content/uploads/2019/08/Screenshot_labeling_final2-edited.jpg[]
+
+## Model Selection Triple
+image::2019-09-10-14-15-51.png[]
+http://cseweb.ucsd.edu/~arunkk/vision/SIGMODRecord15.pdf
+
+## Ожидания работодателя
+
+От начинающего специалиста по Data Science работодатель ждёт:
+
+- базовое знание математической статистики, алгоритмов машинного обучения;
+- навыки подготовки данных к анализу с помощью библиотек;
+- способность выбрать подходящий алгоритм под задачу и создать модель на его основе;
+- умение защитить эффективность модели;
+- способность успешно внедрить её в процесс или продукт.
+
+// TODO: добавить https://www.jetbrains.com/research/data-science-in-russia/
+
+## Опыт работы
+
+"Опыт работы с реальными бизнес-проектами для работодателя важнее, чем ученая степень или профильное высшее образование. Дипломы сильных вузов и тематические научные работы ценятся больше при выборе привлеченных консультантов на стратегические проекты. А по практическому опыту выбирают датасаентиста для решения ежедневных задач компании.
+"
+-- https://academy.yandex.ru/posts/chem-zanimaetsya-spetsialist-po-data-science-i-kak-nachat-rabotat-v-etoy-oblasti
+
+
+## Культура эксперимента
+"
+Важна культура экспериментальной работы. Необходимо уметь запускать несколько экспериментов одновременно, перебирать разные версии, записывать и анализировать результаты. Пока идет обучение в одной конфигурации данных и архитектуры, запускать следующие.
+"
+-- https://vk.com/@yandex4developers-kultura-eksperimenta
+
+// TODO: развить тему
+
+## NeptuneML 1
+image::https://miro.medium.com/max/1917/1*kxpOMPG3YSDrePd3M-Ft-Q.png[]
+
+## NeptuneML 2
+image::https://miro.medium.com/max/1904/1*rz9qRQP2a4VJwfCekh2gtg.png[]
+image::https://miro.medium.com/max/1904/1*1DgXhIrBm1A4Qqx9irZv8A.png[]
+
+## AutoML
+image::https://github.com/hibayesian/awesome-automl-papers/raw/master/resources/procedure.jpg[]
+
+## AutoML mindmap
+image::https://github.com/hibayesian/awesome-automl-papers/raw/master/resources/automl.png[]
+
+## Off-the-shelf AutoML
+image::https://miro.medium.com/max/910/0*TaJKX2KXpE5yr45t[]
+
+## Источники
+- https://academy.yandex.ru/posts/chem-zanimaetsya-spetsialist-po-data-science-i-kak-nachat-rabotat-v-etoy-oblasti
+- https://vk.com/@yandex4developers-kultura-eksperimenta
+- https://blog.acolyer.org/2019/07/08/software-engineering-for-machine-learning/
+- https://www.topbots.com/ai-nlp-research-papers-acl2019/
+- https://github.com/hibayesian/awesome-automl-papers
+- https://medium.com/neptune-ml/managing-thousands-of-machine-learning-experiments-with-a-single-dashboard-39324279e298
+- https://medium.com/neptune-ml/tracking-organization-and-collaboration-for-data-science-projects-with-neptune-ml-bc9105130741
+- https://medium.com/georgian-impact-blog/automatic-machine-learning-aml-landscape-survey-f75c3ae3bbf2
+- https://towardsdatascience.com/building-the-future-of-data-science-d5587a402e42

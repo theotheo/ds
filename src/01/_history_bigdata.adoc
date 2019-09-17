@@ -1,0 +1,115 @@
+
+# Big Data
+
+## 1880 Перепись в США
+- заняла 8 лет
+
+## 1881 The Hollerith Tabulating Machine
+
+image::http://www.wheelhousesearch.com/wp-content/uploads/2014/04/512px-Hollerith_card_reader_closeup.jpg[]
+
+## 1890 Перепись в США
+- Машина Холлерита ускорила в несколько раз перепись
+- Сэкономила 5 миллионов $ 
+
+## 1937 
+- Social Security Act
+- the government had to keep track of contribution from 26 million Americans and more than 3 million employers. 
+- IBM выиграла контракт
+
+## 1944, The Scholar and the Future of the Research Library
+- Fremont Rider, библиотекарь
+- библиотека Йеля в 2040 будет  "approximately 200,000,000 volumes, which will occupy over 6,000 miles of shelves… [requiring] a cataloging staff of over six thousand persons"
+
+## 1952
+- National Security Agency (NSA)
+- 12.000 криптографов в течении 10 лет
+
+## 1961, Science Since Babylon
+- Derek Price
+- рост количества научных журналов и публикаций 
+-  “law of exponential increase”
+- “each [scientific] advance generates a new series of advances at a reasonably constant birth rate, so that the number of births is strictly proportional to the size of the population of discoveries at any given time.”
+
+## 1965, 'Big Brother'
+- 742 million tax returns 
+- 175 million sets of fingerprints 
+- magnetic computer tape
+- single location
+- the beginning of the electronic data storage era
+
+## 1971,  The Assault on Privacy
+- Arthur Miller 
+- "Too many information handlers seem to measure a man by the number of bits of storage capacity his dossier will occupy."
+
+## 1975 Information Flow Census
+- Япония, The Ministry of Posts and Telecommunications
+- The census introduces “amount of words” as the unifying unit of measurement across all media. 
+- 1975 показали, что предложение растет быстрее потребления
+- 1978  “the demand for information provided by mass media, which are one-way communication, has become stagnant, and the demand for information provided by personal telecommunications media, which are characterized by two-way communications, has drastically increased…. Our society is moving toward a new stage… in which more priority is placed on segmented, more detailed information to meet individual needs, instead of conventional mass-reproduced conformed information.”
+
+## 1980 Where Do We Go From Here
+- I.A. Tjomsland 
+-  Fourth IEEE Symposium on Mass Storage Systems
+- Закон Паркинсона
+
+## 1983 Tracking the Flow of Information
+- Ithiel de Sola Pool 
+- 17 основных каналов коммуникации
+-  “words made available to Americans (over the age of 10) through these media grew at a rate of 8.9 percent per year… words actually attended to from those media grew at just 2.9 percent per year…. In the period of observation, much of the growth in the flow of information was due to the growth in broadcasting… But toward the end of that period [1977] the situation was changing: point-to-point media were growing faster than broadcasting
+
+## 1989, WWW
+- Tim Berners-Lee 
+- hypertext
+
+## 1996 “The Evolution of Storage Systems”
+- R.J.T. Morris and B.J. Truskowski,
+- цифровое хранение стало дешевле чем бумажное
+
+## 1997 Application-controlled demand paging for out-of-core visualization
+- Michael Cox and David Ellsworth
+- “Visualization provides an interesting challenge for computer systems: data sets are generally quite large, taxing the capacities of main memory, local disk, and even remote disk. We call this the problem of big data. When data sets do not fit in main memory (in core), or when they do not fit even on local disk, the most common solution is to acquire more resources.”
+- Первая статья в ACM с использовании "big data"
+
+
+## 2000 “How Much Information?"
+- в 1999 мир произвел 1.5 экзабайт уникальной информации
+- около 250 мегабайт на каждого мужчину, женщину и детей
+- democratization of data
+- dominance of digital
+- “even today, most textual information is ‘born digital,’ and within a few years this will be true for images as well.” 
+
+## 2001 3Vs
+- Doug Laney, an analyst with the Meta Group
+- 3D Data Management: Controlling Data Volume, Velocity, and Variety
+- объём (англ. volume, в смысле величины физического объёма)
+- скорость (velocity в смыслах как скорости прироста, так и необходимости высокоскоростной обработки и получения результатов)
+- многообразие (variety, в смысле возможности одновременной обработки различных типов структурированных и полуструктурированных данных
+
+## 2002 Apache Nutch
+- crawler для веба
+
+## 2004 MapReduce
+- статья Google 
+
+## 2005 Hadoop
+
+## 2007
+image::https://upload.wikimedia.org/wikipedia/commons/7/7c/Hilbert_InfoGrowth.png[]
+
+## 2009 Spark
+
+## 2010 Eric Schmidt
+"there were 5 exabytes of information created by the entire world between the dawn of civilization and 2003. Now that same amount is created every two days."
+
+## 2011 McKinsey
+The next frontier for innovation, competition, and productivity, states that in 2018 the USA alone will face a shortage of 140.000 – 190.000 data scientist as well as 1.5 million data managers.
+
+## Источники
+- https://www.winshuttle.com/big-data-timeline/
+- https://datafloq.com/read/amp/big-data-history/239
+- http://www.balasubramanyamlanka.com/history-of-hadoop/
+- https://www.kdnuggets.com/2017/02/origins-big-data.html
+- https://www.forbes.com/sites/gilpress/2013/05/09/a-very-short-history-of-big-data/amp/
+
+// TODO: https://www.quora.com/What-is-the-history-of-data-science/answer/Talking-BiZness

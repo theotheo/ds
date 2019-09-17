@@ -1,0 +1,167 @@
+# Data Science
+
+## 1962  The Future of Data Analysis
+- John Tukey, Bell Labs
+
+"a new science about learning from data, urging academic statisticians to reduce their focus on statistical theory and engage with the entire data-analysis process"
+-- https://www.welcometothejungle.co/en/articles/story-origin-data-science
+
+
+## 1966 Statistical Analysis System (SAS)
+- North Carolina State University's agricultural department.
+
+## 1974 John Naur
+
+"The science of dealing with data, once they have been established, while the relation of the data to what they represent is delegated to other fields and sciences.
+"
+-- Concise Survey of Computer Methods, Peter Naur
+
+## 1976 SAS Institute
+- основан
+- было 100 кастомеров
+- 300 человек присутствовало на конференции
+
+## 1977 International Association for Statistical Computing (IASC)
+"It is the mission of the IASC to link traditional statistical methodology, modern computer technology, and the knowledge of domain experts in order to convert data into information and knowledge."
+-- миссия
+
+## 1977 Exploratory Data Analysis
+Еще одна статья Tukey 
+"arguing the importance of using data in selecting “which” hypotheses to test, and that confirmatory data analysis and exploratory data analysis should work hand-in-hand."
+
+## 1989 Knowledge Discovery in Databases (KDD)
+Первый воркшоп
+
+- Expert Database Systems
+- Scientific Discovery
+- Fuzzy Rules
+- Using Domain Knowledge
+- Learning from Relational (Structured) Data
+- Dealing with Text and other Complex Data
+- Discovery Tools
+- Better Presentation Methods
+- Integrated Systems
+- Privacy
+
+## 1991 Python
+- Guido van Rossum
+
+## 1993 Greater or lesser statistics: A choice for future research
+- John Chambers, Bell Labs
+- создатель языка S 
+- Greater statistics: “Everything related to learning from data, from the first planning or collection to the last presentation or report”
+- Lesser statistics: “The body of specifically statistical methodology that has evolved within the profession—roughly, statistics as defined by texts, journals, and doctoral dissertations”
+- “If statisticians remain aloof, others will act. Statistics will lose.”
+
+## 1993 R
+- Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand
+
+## 1994 обложка в Business Week
+"Business Week ran the cover story, Database Marketing, revealing the ominous news companies had started gathering large amounts of personal information, with plans to start strange new marketing campaigns. The flood of data was, at best, confusing to company managers, who were trying to decide what to do with so much disconnected information."
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## 1997 переименовать статистиков
+- Professor C. F. Jeff Wu, Georgia Institute of Technology
+- inaugural lecture for the H. C. Carver Chair in Statistics at the University of Michigan
+
+## 2001 William S. Cleveland
+Data Science: An Action Plan for Expanding the Technical Areas of the field of Statistics.
+
+- Multidisciplinary Investigations (25%): Data analysis collaborations in a collection of subject matter areas.
+- Models and Methods for Data (20%): Statistical models; methods of model building; methods of estimation and distribution based on probabilistic inference.
+- Computing with Data (15%): Hardware systems; software systems; computational algorithms.
+- Pedagogy (15%): Curriculum planning and approaches to teaching for elementary school, secondary school, college, graduate school, continuing education, and corporate training.
+- Tool Evaluation (5%): Surveys of tools in use in practice, surveys of perceived needs for new tools, and studies of the processes for developing new tools.
+- Theory (20%): Foundations of data science; general approaches to models and methods, to computing with data, to teaching, and to tool evaluation; mathematical investigations of models and methods, of computing with data, of teaching, and of evaluation.
+
+
+## 2002 Data Science Journal
+International Council for Science: Committee on Data for Science and Technology 
+
+## 2007 sklearn
+
+## 2008 Pandas
+- Wes McKinney
+- “I fell in love pretty quickly with Python,” 
+- “By introducing the ‘DataFrame,’ Pandas made it possible to do intuitive analysis and exploration in Python that wasn’t possible in other languages like Java. And is still not possible.”
+
+image::2019-09-10-17-50-17.png[]
+https://qz.com/1126615/the-story-of-the-most-important-tool-in-data-science/
+
+## 2008 Buzzword
+" “Data Scientist” became a buzzword, and eventually a part of the language. DJ Patil and Jeff Hammerbacher, of LinkedIn and Facebook, are given credit for initiating its use as a buzzword."
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## 2010 ”Data, Data Everywhere“
+- Kenneth Cukier 
+- The Economist Special Report 
+- ”… a new kind of professional has emerged, the data scientist, who combines the skills of software programmer, statistician and storyteller/artist to extract the nuggets of gold hidden under mountains of data.”
+
+## 2010
+- Drew Conway
+
+image::https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fgilpress%2Ffiles%2F2014%2F10%2Fdata_science_vd-300x2862.jpg[]
+
+http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram
+
+## 2011 Building Data Science Teams
+-  D.J. Patil 
+- " “Starting in 2008, Jeff Hammerbacher (@hackingdata) and I sat down to share our experiences building the data and analytics groups at Facebook and LinkedIn. "
+
+## 2011
+"job listings for Data Scientists increased by 15,000%. There was also an increase in seminars and conferences devoted specifically to Data Science and Big Data. Data Science had proven itself to be a source of profits and had become a part of corporate culture."
+-- https://www.dataversity.net/brief-history-data-science/#
+
+image::http://b-i.forbesimg.com/gilpress/files/2013/05/linkedin-data-science-chart1.png[]
+
+## 2012 Data Scientist: The Sexiest Job of the 21st Century
+- Tom Davenport and D.J. Patil 
+- Harvard Business Review.
+
+## Популярность python 1
+image::https://www.economist.com/sites/default/files/imagecache/640-width/20180728_WOC883.png[]
+
+## Популярность python 2
+image::https://149351115.v2.pressablecdn.com/wp-content/uploads/2017/09/growth_major_languages-1-1024x878.png[]
+
+## Популярнось python 3
+"Python didn't become more popular with coders. Python CREATED more coders."
+-- https://www.reddit.com/r/Python/comments/7deptd/why_did_python_only_become_dominant_recently/dpxm65x/
+
+
+## Закат R?
+image::https://2s7gjr373w3x22jf92z99mgm5w-wpengine.netdna-ssl.com/wp-content/uploads/2019/08/tiobe-index-for-R.png[]
+
+## 2015 Deep Learning
+"In 2015, Bloomberg’s Jack Clark, wrote that it had been a landmark year for Artificial Intelligence (AI). Within Google, the total of software projects using AI increased from “sporadic usage” to more than 2,700 projects over the year.
+"
+-- https://www.dataversity.net/brief-history-data-science/#
+
+## 2016 ODS
+
+image::2019-09-09-23-23-13.png[https://ods.ai]
+
+## 2017 50 Years of Data Science
+- The “Big Data” Meme
+- The “Skills” Meme
+- The “Jobs” Meme
+
+https://www.tandfonline.com/doi/full/10.1080/10618600.2017.1384734
+
+## Картиночка
+image::https://pbs.twimg.com/media/Ca4GJIUWAAAR94I?format=jpg&name=medium[]
+https://mobile.twitter.com/catapultsports/status/697501746743025664/photo/1
+
+## Источники и дополнительное чтение
+- https://www.dataversity.net/brief-history-data-science/#
+- https://www.economist.com/graphic-detail/2018/07/26/python-is-becoming-the-worlds-most-popular-coding-language
+- https://www.reddit.com/r/Python/comments/7deptd/why_did_python_only_become_dominant_recently/
+- https://stackoverflow.blog/2017/09/06/incredible-growth-python/
+- https://www.kausalvikash.in/blog/the-history-of-data-science/
+- https://www.welcometothejungle.co/en/articles/story-origin-data-science
+- https://www.forbes.com/sites/gilpress/2013/05/28/a-very-short-history-of-data-science/#76080d7c55cf
+- https://towardsdatascience.com/building-the-future-of-data-science-d5587a402e42
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5565421/
+- https://www.quora.com/What-is-the-history-of-data-science/answer/Curtis-Seare
+
+// TODO: добавить из https://www.quora.com/What-is-the-history-of-data-science/answer/Curtis-Seare

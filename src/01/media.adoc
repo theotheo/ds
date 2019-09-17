@@ -1,0 +1,48 @@
+# Media
+
+## Chandler Bing
+
+image::https://media0.giphy.com/media/aZoZJZwlmhDji/giphy.gif[]
+
+// https://twitter.com/xuxoramos/status/647796053719183360?lang=en
+
+## Moneyball
+
+
+## Billy Beane and Paul DePodesta
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/3c/Billy_Beane_-_General_Manager_Oakland_As_%285964095428%29.jpg[]
+
+
+// image::https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Paul_DePodesta_2011.jpg/330px-Paul_DePodesta_2011.jpg[]
+
+## Книга
+
+image::https://images3.penguinrandomhouse.com/cover/9780739308172[]
+
+## Фильм
+image::https://images.complex.com/complex/image/upload/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/gm8wghgxk7llyadlu5uf.jpg[]
+
+## Фильм 2
+
+image::moneyball.png[]
+
+## Sabermetrics
+
+" Sabermetrics is the empirical analysis of baseball, especially baseball statistics that measure in-game activity.
+"
+-- https://en.wikipedia.org/wiki/Sabermetrics[Wikipedia]
+
+От *Society for American Baseball Research (SABR)*
+
+
+## Bill James
+
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Bill_James_2010.jpg/330px-Bill_James_2010.jpg[]
+
+"In 2006, Time named him in the Time 100 as one of the most influential people in the world
+"
+-- https://en.wikipedia.org/wiki/Bill_James[Wikipedia]
+
+// TODO: взять про монибол https://en.wikibooks.org/wiki/Data_Science:_An_Introduction/The_Impact_of_Data_Science
+// TODO: https://en.wikipedia.org/wiki/Moneyball

@@ -1,0 +1,54 @@
+// revealjs
+:revealjs_width: '200%'
+:revealjs_height: 1200
+// :revealjs_margin: 0
+// :revealjs_minScale: 1
+// :revealjs_maxScale: 1
+:revealjs_theme: blood
+:revealjs_slideNumber: true
+:revealjs_center: true
+:revealjs_history: true
+:revealjs_fragmentInURL: true
+:customcss: asciidoctor-revealjs.css
+// plugins
+:revealjs_plugins_dir: revealjs-plugins
+:revealjs_plugins: {revealjs_plugins_dir}/revealjs-plugins.js
+:revealjs_plugins_configuration: {revealjs_plugins_dir}/revealjs-plugins-conf.js
+// plantuml
+:plantuml-server-url: http://www.plantuml.com/plantuml
+:plantuml-fetch-diagram:
+// :imagesoutdir: {src}/images
+:icons: font
+:stem: latexmath
+:sectnums:
+:toc:
+:toclevels: 2
+// other
+:src: ./02
+:codedir: code
+:red: .slide {color: red}
+:2col: "20a,80a"
+:person: icon:user[]
+
+ifndef::imagesdir[:imagesdir: images]
+
+# Введение в программирование
+
+++++
+ <script type="module" src="https://unpkg.com/x-frame-bypass"></script>
+
+++++
+
+## Административное
+- напоминаю, что курс провожу первый раз
+- примеры сыроваты
+- смело предлагайте свои!
+
+
+:leveloffset: +1
+
+include::{src}/intro.adoc[]
+include::{src}/programming.adoc[]
+include::{src}/html.adoc[]
+
+:leveloffset: -1

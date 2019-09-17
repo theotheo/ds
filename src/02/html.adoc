@@ -1,0 +1,44 @@
+
+# HTML
+
+## DOM
+
+https://medium.com/@thatisuday/understanding-basics-of-dom-265b73d958d1
+
+## DOM-дерево
+
+[.stretch]
+image::https://chikeichan.files.wordpress.com/2014/12/twitter.png?w=646&h=647[]
+-- https://chikeichan.wordpress.com/2014/12/23/treeify-visualizing-dom-tree/
+
+## HTML Tree Generator
+[.stretch]
+image::https://lh3.googleusercontent.com/4Law4sm-l5FqRYz5vW2QFk8CDlqid5nVY33FVngpqL2Iy_DWBEyPsD5N-jsWs1R7rfwGyj-Xuw=w640-h400-e365[]
+
+https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg 
+
+## DOM node tree viewer
+
+[.stretch]
+image::https://lh3.googleusercontent.com/thDVTy1FtZwdxLRXa5EZzHG6Q8euDv_CE9R4gvZAtkqyvrR3fbfb2PcjP21TYbBbakvHekqIVAM=w640-h400-e365[]
+https://chrome.google.com/webstore/detail/dom-node-tree-viewer/jbplakkefflidgnjhckoahendgekokfc
+
+## Dom Tree Pretty View
+[.stretch]
+image::https://lh3.googleusercontent.com/wf7zeF8XAmaPwNQv0AZtGUtFruZSTNdNLCPfPwkjXcrPuzzU7vjoO0ka1mQIEl3rfG2YYEjUjH0=w640-h400-e365[]
+https://chrome.google.com/webstore/detail/dom-tree-pretty-view/fbdbnlmganadmogpnpceofkilanfolni
+
+## Selector Gadget
+
+https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en
+
+## ВКР
+https://www.hse.ru/edu/vkr/
+
+## Упражнение на CSS
+https://flukeout.github.io
+
+## Selenium
+
+link:chrome://version[]
+https://sites.google.com/a/chromium.org/chromedriver/downloads

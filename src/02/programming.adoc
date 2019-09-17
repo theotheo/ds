@@ -1,0 +1,52 @@
+# Компьютерное программирование
+> Computer programming is the process of designing and building an executable computer program for accomplishing a specific computing task. 
+-- https://en.wikipedia.org/wiki/Computer_programming
+
+____
+Programming involves tasks such as: 
+- analysis
+- generating algorithms
+- profiling algorithms' accuracy and resource consumption
+- the implementation of algorithms in a chosen programming language (commonly referred to as coding)
+____
+-- https://en.wikipedia.org/wiki/Computer_programming
+
+## Coding
+
+## "A very comprehensive and precise spec"
+[.stretch]
+image::http://www.commitstrip.com/wp-content/uploads/2016/08/Strip-Les-specs-cest-du-code-650-finalenglish.jpg[]
+http://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
+
+## Язык программирования
+
+## Программа
+
+## Языки программирования
+
+## BARSIK
+[.stretch]
+image::http://img1.joyreactor.cc/pics/post/ASM-Комиксы-программирование-язык-программирования-3174673.png[]
+
+## RedMonk
+
+[.stretch]
+image::https://redmonk.com/sogrady/files/2019/07/lang.rank_.619-1024x708.png[]
+
+
+## Python 
+
+[.stretch]
+image::http://img0.joyreactor.cc/pics/post/Комиксы-программирование-geek-python-1847104.png[]
+
+## CodeCombat
+
+https://codecombat.com/students?_cc=WestPlayNight
+
+1. методы
+4. аргументы
+9. циклы
+15. переменные
+
+## CodeCombat
+Пояснения: http://files.codecombat.com/docs/resources/Course1PythonSyntaxGuide.pdf

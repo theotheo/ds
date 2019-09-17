@@ -1,0 +1,79 @@
+
+# Визуализация
+
+## До 17 века
+В основном карты с городами, дорогами и т.п.
+
+## 1644, Michael Florent Van Langren
+предполагаемая первая визуализация статистических данных
+
+image::https://www.dundas.com/support/images/WPImportedImages/FlorentVanLangren1.jpg[]
+
+## 18 век Джозев Пристли
+image::https://alexanderdyakonov.files.wordpress.com/2017/10/pristrey.png?w=700[]
+
+## вторая  18 века Плейфер Уильям
+Изобрел line, bar, circle, и pie charts
+и много 
+
+image::https://alexanderdyakonov.files.wordpress.com/2017/10/pleyfer1.png?w=700[]
+
+## 1869 Шарль Минар
+
+image::https://alexanderdyakonov.files.wordpress.com/2017/10/minar.png?w=700[]
+
+## середина 19 века Джон Сноу
+
+image::https://alexanderdyakonov.files.wordpress.com/2017/10/johnsnow.png?w=700[]
+
+## примерно тоже время Rose Chart, Florence Nightingale
+image::https://www.dundas.com/support/images/WPImportedImages/florencenightingale.jpg[]
+
+## ранний 20 век
+- мало инноваций в визуализации
+- рост графиков в учебниках, науке, государстве
+
+## вторая половина 20 века "rebirth of data visualization"
+- John W. Tukey in the United States 
+- визуализация в статистике
+
+image::https://images-na.ssl-images-amazon.com/images/I/41lcv%2B1JqRL._SX346_BO1,204,203,200_.jpg[]
+
+## 1967 Semiology of Graphics
+- Jacques Bertin, France 
+- визуализация в картографии
+
+image::https://images-na.ssl-images-amazon.com/images/I/518z2BqNTDL._SX414_BO1,204,203,200_.jpg[]
+
+## 1972 PRIM-9
+- John Tukey
+- первая программа с интерактивными графиками 
+
+## 1999 The Grammar of Graphics
+
+image::https://images-na.ssl-images-amazon.com/images/I/41w-MN9nlCL._SX313_BO1,204,203,200_.jpg[]
+
+## 2001 Edward Tufte "The Visual Display of Quantitative Information"
+
+image::https://images-na.ssl-images-amazon.com/images/I/41IXJO4Mk6L._SX392_BO1,204,203,200_.jpg[]
+
+## 2002 matplotlib
+- John Hunter
+- патч к IPython
+
+
+## 2006 The Best Stats You've Ever Seen
+
+image::https://tedconfblog.files.wordpress.com/2014/06/hans-rosling-image.jpg?w=900&h=601[]
+
+https://www.ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen?referrer=playlist-the_best_hans_rosling_talks_yo#t-9001
+
+## 2007 ggplot2
+
+## Источники
+- https://flowingdata.com/2008/01/01/john-tukey-and-the-beginning-of-interactive-graphics/
+- https://www.dundas.com/resources/dundas-data-visualization-blog/a-brief-history-of-data-visualization
+- https://en.wikipedia.org/wiki/Jacques_Bertin
+- https://en.wikipedia.org/wiki/Ggplot2
+- https://jakevdp.github.io/blog/2013/03/23/matplotlib-and-the-future-of-visualization-in-python/
+

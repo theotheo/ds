@@ -1,0 +1,43 @@
+# Business Intelligence
+
+## 1865 Первое упоминание
+Cyclopædia of Commercial and Business Anecdotes
+
+"He used it to describe how Sir Henry Furnese, a successful banker, profited from information by actively gathering and acting on it before his competition. This pointed out the fact that it was more reliable to use data and empirical evidence, rather than gut instinct, to develop a business strategy
+"
+
+
+## 1890-1900 Frederick Taylor 
+Taylor's scientific management consisted of four principles:
+
+- Replace rule-of-thumb work methods with methods based on a scientific study of the tasks.
+- Scientifically select, train, and develop each employee rather than passively leaving them to train themselves.
+- Provide "Detailed instruction and supervision of each worker in the performance of that worker's discrete task" (Montgomery 1997: 250).
+- Divide work nearly equally between managers and workers, so that the managers apply scientific management principles to planning the work and the workers actually perform the tasks.
+-- https://en.wikipedia.org/wiki/Frederick_Winslow_Taylor
+
+http://www.improvement.ru/bibliot/taylor/index.shtm
+
+## 1900 Henry Ford
+- Пользовался консультациями Тейлора
+- измерял время сборки каждого компонента Ford Model T
+
+## 1958 " A Business Intelligence System."
+-  IBM researcher Hans Peter Luhn
+- system for “selective dissemination” of documents to “action points” based on “interest profiles.”
+- не получило распространения из-за дороговизны
+
+## 1970 A Relational Model of Data for Large Shared Data Banks
+- IBM researcher Edgar Codd
+
+## конец 70 Oracle
+- Larry Ellison
+- первый коммерческий RDMS
+
+## 1989
+"Howard Dresdner, of the Gartner Group, contributed to popularizing the term “business intelligence,” using it as an umbrella term to describe “concepts and methods to improve business decision-making by using fact-based support systems."
+-- https://www.toptal.com/project-managers/it/history-of-business-intelligence
+
+## Источники 
+- https://www.toptal.com/project-managers/it/history-of-business-intelligence
+

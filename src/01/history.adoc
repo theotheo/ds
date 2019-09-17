@@ -1,0 +1,14 @@
+// include::_history_stats.adoc[+1]
+
+include::_history_viz.adoc[+1]
+
+// include::_history_hardware.adoc[+1]
+
+include::_history_bi.adoc[+1]
+
+include::_history_bigdata.adoc[+1]
+
+include::_history_ds.adoc[+1]
+
+include::_history_dh.adoc[+1]
+

@@ -1,0 +1,32 @@
+
+# tag::model[]
+In [2]: class NGramLanguageModeler(nn.Module):
+        
+            def __init__(self, vocab_size, embedding_dim, context_size):
+                super(NGramLanguageModeler, self).__init__()
+                self.embeddings = nn.Embedding(vocab_size, embedding_dim) # <1>
+                self.linear1 = nn.Linear(context_size * embedding_dim, 128) # <2>
+                self.linear2 = nn.Linear(128, vocab_size) # <3>
+        
+            def forward(self, inputs):
+                embeds = self.embeddings(inputs).view((1000, -1)) # <4>
+                
+                out = F.relu(self.linear1(embeds)) # <5>
+                out = self.linear2(out)
+                log_probs = F.log_softmax(out, dim=1)
+                
+                return log_probs
+            
+
+        ---------------------------------------------------------------------------
+        NameError                                 Traceback (most recent call last)
+        <ipython-input-2-d2b9f6372283> in <module>
+----> 1 class NGramLanguageModeler(nn.Module):
+      2 
+      3     def __init__(self, vocab_size, embedding_dim, context_size):
+      4         super(NGramLanguageModeler, self).__init__()
+      5         self.embeddings = nn.Embedding(vocab_size, embedding_dim) # <1>
+
+        NameError: name 'nn' is not defined
+
+# end::model[]

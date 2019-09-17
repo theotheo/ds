@@ -1,0 +1,23 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bunlder.js",
+  "scripts": {
+    "serve": "node bundler.js"
+  },
+  "keywords": [],
+  "author": "i",
+  "dependencies": {
+    "asciidoctor-plantuml": "^1.1.13",
+    "asciidoctor-reveal.js": "^2.0.0",
+    "browser-sync": "^2.23.6",
+    "express": "^4.17.0",
+    "gulp": "^3.9.1",
+    "open": "^6.3.0",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp-index": "^0.2.0"
+  }
+}
