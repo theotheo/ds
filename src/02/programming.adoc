@@ -5,14 +5,13 @@
 
 ____
 Programming involves tasks such as: 
-- analysis
-- generating algorithms
-- profiling algorithms' accuracy and resource consumption
-- the implementation of algorithms in a chosen programming language (commonly referred to as coding)
+
+* analysis
+* generating algorithms
+* profiling algorithms' accuracy and resource consumption
+* the implementation of algorithms in a chosen programming language (commonly referred to as coding)
 ____
 -- https://en.wikipedia.org/wiki/Computer_programming
-
-## Coding
 
 ## "A very comprehensive and precise spec"
 [.stretch]
@@ -27,6 +26,13 @@ http://www.commitstrip.com/en/2016/08/25/a-very-comprehensive-and-precise-spec/
 
 
 ## Программа
+____
+A computer program is a collection of instructions that performs a specific task when executed by a computer. 
+
+A computer program is usually written by a computer programmer in a programming language
+____
+-- https://en.wikipedia.org/wiki/Computer_program
+
 
 ## Языки программирования
 
@@ -53,10 +59,15 @@ image::http://img0.joyreactor.cc/pics/post/Комиксы-программиро
 
 https://codecombat.com/students?_cc=WestPlayNight
 
-1. методы
-4. аргументы
-9. циклы
-15. переменные
+
+    1. методы
+    4. аргументы
+    9. циклы
+    15. переменные
 
 ## CodeCombat
-Пояснения: http://files.codecombat.com/docs/resources/Course1PythonSyntaxGuide.pdf
+[.stretch]
+image::2019-09-17-18-05-46.png[]
+http://files.codecombat.com/docs/resources/Course1PythonSyntaxGuide.pdf
+
+## Turtle
