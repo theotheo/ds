@@ -57,6 +57,6 @@ include::{src}/intro.adoc[]
 
 include::{src}/programming.adoc[]
 
-include::{src}/html.adoc[]
+include::{src}/browser.adoc[]
 
 :leveloffset: -1

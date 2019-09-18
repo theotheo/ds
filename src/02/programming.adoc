@@ -49,6 +49,17 @@ image::http://img1.joyreactor.cc/pics/post/ASM-Комиксы-программи
 [.stretch]
 image::https://redmonk.com/sogrady/files/2019/07/lang.rank_.619-1024x708.png[]
 
+## History
+[.stretch]
+image::https://ccrma.stanford.edu/courses/250a-fall-2005/docs/ComputerLanguagesChart.png[]
+
+https://blogs.ucl.ac.uk/ucl-student-blog/a-brief-history-of-programming-languages-a-review-of-codes-that-changed-the-world/
+
+## History
+[.stretch]
+image::http://www.c-jump.com/bcc/c157c/Week01/const_images/histproglang.gif[]
+
+https://www.marianowo.org/history-of-programming-languages-8-lessons-ive-learned-from-history-of-programming-languages-19676
 
 ## Python 
 

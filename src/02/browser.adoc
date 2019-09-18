@@ -1,0 +1,231 @@
+
+# Browser
+____
+* It is an application that we use when we browse the WWW.
+* It renders text-based HTML documents into visual pages, which are what we see inside a browser.
+* It speaks HTTP protocol and communicates with web servers.
+* It understands URL and knows how to translates URL into web resources, e.g., HTML text files, images, videos, etc.
+* It is a virtual machine that runs the JavaScript programs embedded inside HTML documents.
+* It understands CSS rules and applies the rules to layout the pages.
+* It interacts with a user in front of a browser and translates user inputs into browser events, e.g., clicking a link, clicking a button, submitting text inside a text box.
+* It makes the WWW come alive!
+____
+https://seng130.wordpress.com/lectures-2/browser-architecture/
+
+
+## Browser Architecture
+[.stretch]
+image::https://seng130.files.wordpress.com/2011/05/browser-reference-architecture.png[]
+
+[%notitle]
+## Critical Rendering Path
+Путь по которому проходит браузер при отрисовке страницы
+
+[.stretch]
+image::http://lebrunblack.com/wp-content/uploads/2019/02/criticalrenderpath.png[]
+http://lebrunblack.com/index.php/2019/02/21/critical-render-path-optimisation/
+
+## 6 этапов CRP
+____
+. построение DOM-дерева,
+. построение CSSOM-дерева,
+. запуск JavaScript,
+. создание Render-дерева,
+. генерация раскладки,
+. отрисовка.
+____
+-- https://habr.com/ru/post/320430/
+
+[.stretch]
+image::https://habrastorage.org/files/259/c56/dc0/259c56dc0af24a3497500ed5e81cd31b.png[]
+
+## HTML
+Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
+
+[source,html]
+----
+<html>  
+<head>  
+  <title>Understanding the Critical Rendering Path</title>
+  <link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+  <header>
+      <h1>Understanding the Critical Rendering Path</h1>
+  </header>
+  <main>
+      <h2>Introduction</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+  </main>
+  <footer>
+      <small>Copyright 2017</small>
+  </footer>
+</body>  
+</html>  
+----
+https://habr.com/ru/post/320430/
+
+## CombatCode Time
+
+## DOM
+Document Object Model -- это дерево, представляющий полностью разобранную ("распаршенную") HTML-страницу. . 
+
+[.stretch, cols="50a, 50a"]
+|===
+|
+[source,html]
+----
+<html>  
+<head>  
+  <title>Understanding the Critical Rendering Path</title>
+  <link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+  <header>
+      <h1>Understanding the Critical Rendering Path</h1>
+  </header>
+  <main>
+      <h2>Introduction</h2>
+      <p>Lorem ipsum dolor sit amet</p>
+  </main>
+  <footer>
+      <small>Copyright 2017</small>
+  </footer>
+</body>  
+</html>  
+----
+|
+[.stretch]
+image:https://habrastorage.org/files/1d3/c64/dbd/1d3c64dbdadf4fcab2192a85f74a8453.png[]
+|===
+
+https://medium.com/@thatisuday/understanding-basics-of-dom-265b73d958d1
+
+## парсинг HTML
+
+[.stretch]
+image::https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/full-process.png[]
+https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+
+## красивые примеры DOM-деревьев
+
+[.stretch]
+image::https://chikeichan.files.wordpress.com/2014/12/twitter.png?w=646&h=647[]
+-- https://chikeichan.wordpress.com/2014/12/23/treeify-visualizing-dom-tree/
+
+http://treeify.herokuapp.com
+
+## HTML Tree Generator
+[.stretch]
+image::https://lh3.googleusercontent.com/4Law4sm-l5FqRYz5vW2QFk8CDlqid5nVY33FVngpqL2Iy_DWBEyPsD5N-jsWs1R7rfwGyj-Xuw=w640-h400-e365[]
+
+https://chrome.google.com/webstore/detail/html-tree-generator/dlbbmhhaadfnbbdnjalilhdakfmiffeg 
+
+## DOM node tree viewer
+
+[.stretch]
+image::https://lh3.googleusercontent.com/thDVTy1FtZwdxLRXa5EZzHG6Q8euDv_CE9R4gvZAtkqyvrR3fbfb2PcjP21TYbBbakvHekqIVAM=w640-h400-e365[]
+https://chrome.google.com/webstore/detail/dom-node-tree-viewer/jbplakkefflidgnjhckoahendgekokfc
+
+## Dom Tree Pretty View
+[.stretch]
+image::https://lh3.googleusercontent.com/wf7zeF8XAmaPwNQv0AZtGUtFruZSTNdNLCPfPwkjXcrPuzzU7vjoO0ka1mQIEl3rfG2YYEjUjH0=w640-h400-e365[]
+https://chrome.google.com/webstore/detail/dom-tree-pretty-view/fbdbnlmganadmogpnpceofkilanfolni
+
+## CSS
+> Cascading Style Sheets -- язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам (например, документам HTML и приложениям XML). 
+-- https://html5book.ru/osnovy-css/
+
+[source, css]
+----
+body { font-size: 18px; }
+
+header { color: plum; }  
+h1 { font-size: 28px; }
+
+main { color: firebrick; }  
+h2 { font-size: 20px; }
+
+footer { display: none; }
+----
+
+## with/wo CSS
+[cols="50a,50a"]
+|===
+|
+image:https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/nytimes-css-device.png[]
+|
+image:https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/nytimes-nocss-device.png[]
+|===
+
+## CSSOM
+> CSSOM (объектная модель CSS) — это объект, представляющий стили, связанные с DOM. Он выглядит так же как DOM, но с соответствующими стилями для каждого узла.
+
+
+[.stretch]
+image::https://habrastorage.org/files/9b5/33f/f95/9b533ff950dc4d528fc19d0f615654e5.png[]
+
+## JS
+Javascript -- интерпретируемый высокоуровневый прототипоориентированный язык. 
+Помимо привычной работы с числами, строками и списками JS в браузере имеет доступ к DOM/CSSOM.
+
+[.stretch]
+image::https://miro.medium.com/max/964/1*rRoLpv-Zrmpa-srNhwlbvA.gif[]
+
+
+## HTML/CSS/JS
+[.stretch]
+image::2019-09-17-17-19-28.png[]
+-- https://emmawedekind.github.io/how-to-become-a-web-developer/
+
+## Render Tree
+DOM и CSSOM объединяются вместе
+
+[.stretch]
+image::https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/render-tree-construction.png[]
+
+## Layout
+Раскладка -- высчитывание точных размеров и позиций элементов внутри окна браузера 
+
+[.stretch]
+image::https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/layout-viewport.png[]
+
+## Отрисовка
+Видимый контент превращается в пиксели
+
+## Front-end developer
+[.stretch]
+image::2019-09-17-17-20-36.png[]
+-- https://emmawedekind.github.io/how-to-become-a-web-developer/
+
+## Selectors
+[.stretch]
+image::https://html5book.ru/wp-content/uploads/2014/12/css_osnovy.png[]
+
+Селектор выбирает элементы из DOM-дерева
+
+.Основные виды селекторов
+. * – любые элементы.
+. div – элементы с таким тегом.
+. #id – элемент с данным id.
+. .class – элементы с таким классом.
+. [name="value"] – селекторы на атрибут
+. :visited – «псевдоклассы»
+
+https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Селекторы
+
+## Selector Gadget
+[.stretch]
+image::https://lh3.googleusercontent.com/ZuRifTFfBAQXCiKeZbgH2i6xann4g0Tt4AKnGHu4OTxyz8gRDZl0R3VG9uHwr7FmHEaCeVg=w640-h400-e365[]
+https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en
+
+
+## Упражнение на CSS
+https://flukeout.github.io
+
+## Selenium
+> Selenium automates browsers.
+-- https://www.seleniumhq.org
+
+[.stretch]
+image::https://hackr.io/blog/wp-content/uploads/2019/03/Selenium-Image-compressor-1.jpg[]
