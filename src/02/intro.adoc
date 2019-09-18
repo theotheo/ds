@@ -85,14 +85,6 @@ image:https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/1983_CPA_5426_%2
 
 http://taketop.ru/articles/obslygivanie/barmen/masterstvo/algoritm-zakaza
 
-## Музыка
-
-[.stretch]
-image::https://www.music-theory.ru/images/sh_repriza_volta.png[]
-
-## Sonic Pi
-video::G1m0aX9Lpts[youtube, width=1000]
-
 ## Танцы!
 
 video::a0vpWR33UMw[youtube, width=1000]
@@ -141,5 +133,18 @@ image::https://www.researchgate.net/profile/Minako_Nakamura/publication/24236883
 - правая рука вверх
 - руки на поясе
 
+
+## Музыка
+
+[.stretch]
+image::https://muzzproj.ru/assets/muzzfile/images/teoria/repriz.jpg[]
+
+[.stretch]
+image::https://www.syl.ru/misc/i/ai/187510/784605.jpg[]
+
+## Sonic Pi
+video::G1m0aX9Lpts[youtube, width=1000]
+
 ## Программируем на бумажке
 image::https://code.org/curriculum/docs/csf/c2_GraphPaper7.png[]
+
