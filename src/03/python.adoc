@@ -1,0 +1,220 @@
+
+# Введение
+
+## Особенности
+- популярный
+- высокоуровневый
+- интерпретируемый
+- общего назначения
+- динамически и строго типизированный
+- со сборщиком мусора (garbage collector)
+- объектно-ориентированный
+- с элементами функционального программирования
+- опенсорс
+- "batteries included"
+
+## история
+[cols={2col}]
+|===
+|
+image:https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Guido-portrait-2014-curvves.jpg/435px-Guido-portrait-2014-curvves.jpg[]
+|
+- 1989 
+- Гвидо вон Россум, 
+- https://ru.wikipedia.org/wiki/Центр_математики_и_информатики[Центр математики и информатики (CWI)] -- один из ведущих европейских научно-исследовательских институтов в области математики и теоретической информатики.  
+- Amoeba, https://en.wikipedia.org/wiki/ABC_(programming_language)[ABC] 
+- "new scripting language [he] had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers"
+- Monty Python's Flying Circus
+- The Zen of Python -- философия
+|===
+
+> "I remembered all my experience and some of my frustration with ABC. I decided to try to design a simple scripting language that possessed some of ABC's better properties, but without its problems. So I started typing. I created a simple virtual machine, a simple parser, and a simple runtime. I made my own version of the various ABC parts that I liked. I created a basic syntax, used indentation for statement grouping instead of curly braces or begin-end blocks, and developed a small number of powerful data types: a hash table (or dictionary, as we call it), a list, strings, and numbers." 
+-- https://www.python-course.eu/python3_history_and_philosophy.php
+
+## развитие
+
+- Python Enhancement Proposals (PEP)
+- https://github.com/python
+
+- 1991: 0.9.0 alt.sources
+- 1994: 1.0
+- 2000: 2.0
+- 2008: 3.0 (Py3k, 3000)
+- ...
+- 2016: 3.6
+- 2018: 3.7 
+- On July 12, 2018, Guido van Rossum stepped down as leader
+- 2019: 3.8 (бета-версия)
+- 2020: прекращается поддержка 2.7 
+https://en.wikipedia.org/wiki/History_of_Python
+
+
+
+## 2 vs 3
+- различия между 2 и 3
+- различия между разными версиями 3
+- https://docs.python.org/3/library/2to3.html
+
+[source, python]
+----
+def greet(name):
+    print "Hello, {0}!".format(name)
+print "What's your name?"
+name = raw_input()
+greet(name)
+----
+
+[source, bash]
+----
+$ 2to3 example.py
+----
+
+[source, python]
+----
+def greet(name):
+    print("Hello, {0}!".format(name))
+print("What's your name?")
+name = input()
+greet(name)
+----
+
+
+
+## syntax vs semantics
+> the syntax of a computer language is the set of rules that defines the combinations of symbols that are considered to be a correctly structured document or fragment in that language
+-- https://en.wikipedia.org/wiki/Syntax_(programming_languages)
+
+> The syntax of a language defines its surface form. Text-based computer languages are based on sequences of characters
+
+- syntax errors
+- синтаксис определяет правильную форму программы
+- семантика и ошибки
+
+## formal verification
+> In the context of hardware and software systems, formal verification is the act of proving or disproving the correctness of intended algorithms underlying a system with respect to a certain formal specification or property, using formal methods of mathematics.
+
+> Formal verification can be helpful in proving the correctness of systems such as: cryptographic protocols, combinational circuits, digital circuits with internal memory, and software expressed as source code.
+https://en.wikipedia.org/wiki/Formal_verification
+
+## Automatic bug-fixing
+> Automatic bug-fixing is the automatic repair of software bugs without the intervention of a human programmer. It is also commonly referred to as automatic patch generation, automatic bug repair, or automatic program repair
+
+-- https://en.wikipedia.org/wiki/Automatic_bug_fixing
+
+image::https://www.deepcode.ai/images/banner-image_4718e8bc4fe96f4cea1356cd5a6fd956.png.webp[]
+https://www.deepcode.ai
+
+## Bug
+[cols="50a,50a"]
+|===
+
+image:https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg[]
+https://en.wikipedia.org/wiki/Software_bug
+|
+image:https://res-2.cloudinary.com/theymadethat/image/upload/v1500240409/thing/zovl5ouz2c9ilyavcasn.jpg[]
+https://theymadethat.com/things/75m/harvard-mark-ii
+|===
+
+
+## Грамматика в одном файле
+
+[source, height=1600]
+----
+include::grammar.asdl[]
+----
+
+https://docs.python.org/3/reference/grammar.html
+
+## !
+[.stretch]
+image::https://i.imgur.com/iQYveIP.png[]
+https://indianpythonista.wordpress.com/2018/01/04/how-python-runs/
+
+## разные имплементации
+- CPython is the reference implementation of Python. It is written in C, meeting the C89 standard with several select C99 features
+- PyPy is a fast, compliant[112] interpreter of Python 2.7 and 3.5. Its just-in-time compiler brings a significant speed improvement over CPython.
+- MicroPython and CircuitPython are Python 3 variants optimized for microcontrollers. This includes Lego Mindstorms EV3.
+- RustPython is a Python 3 interpreter written in Rust
+
+## !
+[.stretch]
+https://i.imgur.com/c0PRvvI.png
+https://indianpythonista.wordpress.com/2018/01/04/how-python-runs/ 
+
+
+## Интерпретация
+
+[cols={2col}]
+|===
+|
+[source, python]
+----
+2 + 2
+----
+|
+[.stretch]
+https://i.imgur.com/PJME67T.png
+https://indianpythonista.wordpress.com/2018/01/04/how-python-runs/ 
+|===
+
+## Интерпретация
+[.stretch]
+image::2019-10-01-18-00-07.png[]
+
+https://leanpub.com/insidethepythonvirtualmachine/read
+https://www.youtube.com/watch?v=at30AmjPsy4
+
+
+## Байткод
+> Bytecode, also termed portable code or p-code, is a form of instruction set designed for efficient execution by a software interpreter. Unlike human-readable source code, bytecodes are compact numeric codes, constants, and references (normally numeric addresses) that encode the result of compiler parsing and performing semantic analysis of things like type, scope, and nesting depths of program objects.
+-- https://en.wikipedia.org/wiki/Bytecode
+
+[cols="50a,50a"]
+|===
+|
+[source, python]
+----
+import dis
+
+def func(a, b):
+    return a + b
+
+dis.dis(func)
+----
+|
+[source]
+----
+4           0 LOAD_FAST                0 (a)
+            3 LOAD_FAST                1 (b)
+            6 BINARY_ADD
+            7 RETURN_VALUE
+----
+|===
+https://progbook.org/vm.html
+
+https://stackoverflow.com/questions/12673074/how-should-i-understand-the-output-of-dis-dis
+https://stackoverflow.com/questions/3299648/python-compilation-interpretation-process
+
+
+## AST
+[.stretch]
+image::2019-10-01-18-00-41.png[]
+- code as data
+
+## Python Virtual Machine
+[.stretch]
+image::http://jasonleaster.github.io/images/img_for_2016_02_21/stack.png[width=1000,heigth=1200]
+
+http://jasonleaster.github.io/2016/02/21/architecture-of-python-virtual-machine/
+// https://www.ics.uci.edu/~brgallar/week9_3.html
+// https://progbook.org/strong_index.html
+
+
+## Кросс-компиляторы
+- Jython
+- IronPython 
+- RPython
+- Pyjs (Pyjamas)
+- Cython compiles Python to C and C++
+- Numba uses LLVM to compile Python to machine code.
+

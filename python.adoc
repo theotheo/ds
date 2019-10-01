@@ -1,0 +1,33 @@
+Python books
+
+Python как ЯП
+Типы данных
+Контрольные конструкции
+Переменные
+Объектная модель
+Функции
+ФП
+ООП
+
+
+
+|===
+|===
+
+https://lectoriy.mipt.ru/course/PythonAlgorithms
+
+https://habr.com/ru/company/mailru/blog/420679/
+pythontutor.ru 
+
+https://www.youtube.com/watch?v=oLN3-1UX0-A&list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ
+
+https://stepik.org/course/9230/promo
+https://stepik.org/course/67/promo
+https://stepik.org/course/512/syllabus
+
+https://www.quora.com/Which-is-the-best-book-for-learning-python-for-absolute-beginners-on-their-own
+
+https://hackr.io/blog/best-python-books-for-beginners-and-advanced-programmers
+https://realpython.com/best-python-books/
+
+DataQuest, DataCamp or even CodeAcademy will suffice

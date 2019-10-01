@@ -1,0 +1,87 @@
+
+# Немного про компьютеры
+
+## !
+[.stretch]
+image::https://www.bottomupcs.com/chapter02/figures/computer.png[]
+
+https://www.bottomupcs.com/chapter02.xhtml
+
+
+## !
+[.stretch]
+image::https://www.computerscience.gcse.guru/wp-content/uploads/2016/04/Von-Neumann-Architecture-Diagram.jpg[]
+
+https://www.computerscience.gcse.guru/theory/von-neumann-architecture
+
+## !
+[.stretch]
+image::https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/80186_arch.png/1024px-80186_arch.png[]
+
+https://en.wikiversity.org/wiki/Basics_of_computer_architecture
+
+
+## !
+[.stretch]
+image::https://www.mpoweruk.com/images/von-Neumann.gif[]
+
+https://www.mpoweruk.com/computer_architecture.htm
+
+// ## !
+// [.stretch]
+// image::https://www.bottomupcs.com/chapter02/figures/block.png[]
+// https://www.bottomupcs.com/chapter02.xhtml
+
+
+## Assembler
+[source, c]
+----
+#include <stdio.h>
+
+int main(void)
+{
+	int a = 3;
+	int b = 4;
+	int x = a + b;
+	printf("%d\n", x);
+}
+----
+
+[cols="50a,50a"]
+|===
+|
+
+[source, bash]
+----
+$ clang -Wall -S -o st1.s st1.c
+----
+
+[source, assembler]
+----
+    subq    $16, %rsp
+    movabsq $.L.str, %rdi
+    movl    $3, -4(%rbp)
+    movl    $4, -8(%rbp)
+    movl    -4(%rbp), %eax
+    addl    -8(%rbp), %eax
+    movl    %eax, -12(%rbp)
+    movl    -12(%rbp), %esi
+    movb    $0, %al
+    callq   printf
+----
+|
+[source, bash]
+----
+$ clang -Wall -S -O2 -o st1.s st1.c
+
+----
+
+[source, assembler]
+----
+    movl    $.L.str, %edi
+    movl    $7, %esi
+    xorl    %eax, %eax
+    callq   printf
+----
+
+|===

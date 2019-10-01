@@ -143,6 +143,11 @@ image::https://muzzproj.ru/assets/muzzfile/images/teoria/repriz.jpg[]
 image::https://www.syl.ru/misc/i/ai/187510/784605.jpg[]
 
 ## Sonic Pi
+> Sonic Pi is a live coding environment based on Ruby, originally designed to support both computing and music lessons in schools, developed by Sam Aaron in the University of Cambridge Computer Laboratory[1] in collaboration with Raspberry Pi Foundation
+-- https://en.wikipedia.org/wiki/Sonic_Pi
+
+https://en.wikipedia.org/wiki/List_of_audio_programming_languages
+
 video::G1m0aX9Lpts[youtube, width=1000]
 
 ## Программируем на бумажке
